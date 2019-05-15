@@ -4,12 +4,11 @@ export default class TrafficLight extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			//your state properties here
 			clickedLight: null
 		};
 	}
+
 	render() {
-		console.log(this.state);
 		let redExtraClass = " ";
 		if (this.state.clickedLight == "red") redExtraClass = "selected";
 		let yellowExtraClass = " ";
@@ -17,7 +16,6 @@ export default class TrafficLight extends React.Component {
 		let greenExtraClass = " ";
 		if (this.state.clickedLight == "green") greenExtraClass = "selected";
 		return (
-			//return your html here
 			<div className="container">
 				<div className="trafficTop" />
 				<div className="trafficBody">
