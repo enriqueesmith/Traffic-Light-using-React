@@ -1,3 +1,10 @@
+# Traffic Light using React
+
+A traffic light built using HTML, CSS, JavaScript, Webpack and ReactJs. Once the user opens the application, a traffic light will appear with the corresponding red, yellow and green lights. In order to interact with the lights, click on the light you want to highlight and a box shadow will appear around the light chosen.
+
+See the Live Demo here: 
+
+
 # Hello World with React and Cloud 9
 
 Requirements: Make sure you are using node version 8
